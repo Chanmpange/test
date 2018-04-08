@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/defalt.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 头部内容区域 -->
+    <nav class="top">
+        <div class="container">
+            <ul class="top-navigation">
+                <li class="blog-navigation"><a href="#">首页</a></li>
+                <li class="blog-navigation"><a href="#">案例展示</a></li>
+                <li class="blog-navigation"><a href="#">活动中心</a></li>
+                <li class="blog-navigation"><a href="#">图片素材</a></li>
+                <li class="blog-navigation"><a href="#">留言</a></li>
+                <!-- <li class="unlogin"><a href="">登陆丨</a></li>
+                <li class="unlogin"><a href="">注册</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- 表单区域 -->
+    <div class="form-box">
+        <div class="wrapper">
+            <div class="left-sidebar">
+                <ul class="navlist">
+                    <li class="navlist-upload"><a href="">上传作品</a></li>
+                    <li class="navlist-upload"><a href="">写文章</a></li>
+                </ul>
+            </div>
+
+            <div class="article">
+                <div class="middle-title-wrap">
+                    <h2>上传作品</h2>
+                </div>
+                
+                <div class="upload-con-box">
+                    <div class="upload-con-title">
+                        <h3>作品信息</h3>
+                    </div>
+                    
+                    <div class="work-verify">
+                        <div class="work-namebox">
+                            <input type="text" class="work-data-title" placeholder="请输入作品名称"  value="" style="padding-right: 40px;">
+                        </div>
+                        <div class="work-selectbox"> 
+                            <ul class="selectmenu">
+                                <li>
+                                    <select name="" id="">
+                                        <option value="">选择作品类型</option>
+                                        <option value="">平面</option>
+                                        <option value="">UI</option>
+                                        <option value="">插画</option>
+                                        <option value="">动漫</option>
+                                        <option value="">摄影</option>
+                                        <option value="">空间</option>
+                                        <option value="">影视</option>
+                                        <option value="">其他</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <select name="" id="">
+                                        <option value="">禁止匿名转载;禁止商业使用;禁止个人使用</option>
+                                        <option value="">禁止匿名转载;禁止商业使用;</option>
+                                        <option value="">部限制作品用途</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="worktext-box">
+                            <textarea  placeholder="作品说明" class="textarea-style" onpropertychange="MaxMe(this)" oninput="MaxMe(this)" ></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
